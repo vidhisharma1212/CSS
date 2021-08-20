@@ -9,11 +9,17 @@
 
     <style>
         header {
-            height: 100px;
+            border:3.6px dashed rgb(143, 221, 208);
+            padding: 2px;
+            height: 120px;
             background-color: darkgray;
         }
 
         nav {
+            margin-top: 3px ;
+            height: 80px;
+            border: 2px solid forestgreen;
+            padding: 0;
             background-color: plum;
         }
 
@@ -25,9 +31,17 @@
         }
 
         .content {
-            width: 500px;
+            border-style: dashed double none;
+            /* border-style:none solid none solid; */
+            /* border: 4px rgb(161, 63, 121); */
+            width: auto;
             height: 120px;
             background-color: lightseagreen;
+        }
+
+        .centeralign{
+            margin: 0;
+            text-align: center;
         }
     </style>
 </head>
@@ -46,7 +60,9 @@
 
     <main>
         <div class="content">
-            Enter Content
+            <p class= "centeralign">
+                Enter Content
+            </p>
         </div>
     </main>
 
