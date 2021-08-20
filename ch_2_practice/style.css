@@ -1,0 +1,17 @@
+/* Question 1 */
+#navid{
+    background-color: darkblue;
+    width: 500px;
+}
+.ulclass{
+    color: cornsilk;
+}
+.main{
+    background-color: crimson;
+    color: darkgray;
+}
+.klmo{
+    width: 1242px;
+    height: 2208px;
+    background-image: url('img.jpg');
+}

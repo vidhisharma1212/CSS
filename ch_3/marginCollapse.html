@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Collpase</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 900px;
+        }
+        .box1{
+            background-color: darksalmon;
+            margin: 30px;
+            height: 1020px;
+            /* padding: 2px; */
+            width: 233px;
+            border: 2px solid red;
+            /* box-sizing: border-box; */
+        }
+
+        .box2{
+            margin: 20px;
+            height: 20px;
+            width: 100%;
+            padding: 2px;
+            border: 1px solid grey;
+            box-sizing: border-box;
+            background-color: darkseagreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, similique praesentium nobis voluptatibus a deserunt ut inventore tempore sed, odit itaque saepe sit asperiores consectetur distinctio cum, repellendus maxime dolor consequuntur dolores! Blanditiis, eaque!
+
+        <div class="box2">
+        </div>
+    </div>
+
+    
+</body>
+</html>

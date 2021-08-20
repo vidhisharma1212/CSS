@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.red{
+    background-color: #9f8080;
+    color: rgb(125, 206, 180);
+    height: 200px;
+}
+
+.green{
+    background-color: #727d9d;
+    color: thistle;
+}
+
+.klm{
+    color: rgb(51, 39, 27);
+}

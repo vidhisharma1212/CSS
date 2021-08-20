@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        body{
+            background-color: tomato;
+        }
+        h1{
+            border-color: black;
+            color: rgb(57, 221, 205);
+        }
+        div{
+            background-color: wheat;
+        }
+        #abc , h3{
+            color: cornsilk;
+            background-color: coral;
+        }
+        .klm{
+            color: seagreen;
+            background-color: lightskyblue;
+        }
+
+        p.xyz{
+            color: teal;
+            background-color: silver;
+        }
+        h3{
+            color: yellow;
+        }
+
+        /* star selector acts as a  universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>
+            This is h1 heading
+        </h1>
+        <h1>
+            This is another heading
+        </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum voluptates sapiente, explicabo porro reiciendis veritatis in. Animi aut dolores, rerum error vitae voluptate enim ad earum amet neque architecto, delectus optio, debitis accusantium quia.</p>
+
+    </div>
+    <div id="abc">bg color is coral
+    </div>
+<pre>
+    <span class="klm">
+        This is a span.. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora iste iure doloremque harum, id ex facilis animi rerum, rem, debitis neque esse nisi perspiciatis aliquid consequatur dicta. Nesciunt tempora dolores repudiandae consequatur quo expedita aliquid reiciendis sint quis?
+    </span>
+    <span class="klm">First</span>
+    <span class="klm">Second</span>
+    <span class="klm">Third</span>
+</pre>
+
+<h3>This is h3</h3>
+
+<p class="xyz">1 This is this</p>
+<h3>h</h3>
+<p class="xyz">2 This is this</p>
+<h3>h</h3>
+<p class="xyz">3 This is this</p>
+<h3>h</h3>
+<p class="xyz">4 This is this</p>
+<h3>h</h3>
+<p class="xyz">5 This is this</p>
+<h3>h</h3>
+<p class="xyz">6 This is this</p>
+
+</body>
+</html>
