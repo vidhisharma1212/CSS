@@ -1,56 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
-        nav{
+
+        header {
+            height: 60px;
             background-color: plum;
-        }
-        
-        li{
-            display: inline;
+            
         }
 
-        .block1{
+        .nav ul li {
+            display: inline-block;
+            margin: 17px 6px;
+        }
+
+        li {
+            display: inline;
+            text-decoration: underline;
+        }
+
+        .nav ul li a{
+            color: turquoise;
+            text-decoration: none;
+        }
+
+        .block1 {
             background-color: lightgoldenrodyellow;
             display: inline-block;
             width: 50%;
             height: 500px;
+            /* display: none; */
+            /* visibility: hidden; */
         }
-        
-        .block2{
+
+        .block2 {
             background-color: lightslategrey;
             display: inline-block;
             width: 50%;
             height: 500px;
         }
 
+        #f {
+            background-color: steelblue;
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+            padding: 7px;
+            text-transform: uppercase;
+        }
     </style>
 </head>
+
 <body>
     <header>
-        <nav >
+        <nav class="nav">
             <ul id="ul">
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <div class="block1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum, quaerat animi harum, corrupti consequatur ea itaque ut dicta deserunt quos iusto, hic accusamus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum, quaerat animi harum, corrupti
+            consequatur ea itaque ut dicta deserunt quos iusto, hic accusamus!
         </div><div class="block2">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptas voluptates cum maiores esse nulla molestias praesentium voluptatem maxime, corrupti dolor, sint, quidem aspernatur!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptas voluptates cum maiores esse nulla
+            molestias praesentium voluptatem maxime, corrupti dolor, sint, quidem aspernatur!
         </div>
     </main>
+
+    <footer>
+        <div id="f">
+            This is footer
+        </div>
+    </footer>
 </body>
+
 </html>
