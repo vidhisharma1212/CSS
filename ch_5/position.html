@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            display: inline;
+        }
+        header{
+            background-color: darkcyan;
+            height:70px;
+        }
+        p{
+            text-align: center;
+            border: 3px dotted mediumspringgreen;
+        }
+        .container{
+            background-color: coral;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            border: 4px dashed lightgoldenrodyellow;
+        }
+        .box{
+            height: 125px;
+            width: 200px;
+            background-color: lightcyan;
+            text-align: center;
+            border: 3.5px dashed rgb(183, 196, 68);;
+            
+        }
+        .relative{
+            border: 3.5px dashed lightcyan ;
+            background-color: rgb(183, 196, 68);
+            height: 125px;
+            width: 200px;
+            text-align: center;
+            position: relative;
+            left: 17vw;
+            bottom: 34vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab ducimus, consectetur facilis, nam asperiores dolore ipsa blanditiis quaerat nulla consequatur laborum facere dolor quisquam nobis earum placeat accusamus magnam assumenda animi cupiditate saepe! Quos.
+        </p>
+        <div class="box">
+            I am a box
+        </div>
+
+        <div class="relative">
+            I am a relative box.
+        </div>
+    </div>
+</body>
+</html>
