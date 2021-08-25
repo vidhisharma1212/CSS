@@ -1,1 +1,2 @@
 4:18 absolute positioning and relative positioning
+diff between position fixed and sticky
