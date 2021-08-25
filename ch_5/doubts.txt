@@ -1,2 +1,3 @@
 4:18 absolute positioning and relative positioning
 diff between position fixed and sticky
+see-- position.html style{} ul --> how to resize the image in list-style property?
