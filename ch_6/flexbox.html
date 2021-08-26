@@ -14,13 +14,15 @@
             height: 100vh;
             background-color: rgb(196, 145, 87);
             align-items: center;
-            align-content: center;
+            /* align-content: center; */
             }
         .box1{
             width: 200px;
             height: 100px;
             background-color: cornflowerblue;
             border:2px solid  black;
+            /* order: 1; */
+            align-self: flex-end;
         }
         .box2{
             width: 200px;
@@ -28,14 +30,63 @@
             background-color: lightpink;
             border:2px solid  black;
         }
+        .box3{
+            width: 200px;
+            height: 100px;
+            background-color: rgb(228, 47, 74);
+            border:2px solid  black;
+        }
+        .box4{
+            width: 200px;
+            height: 100px;
+            background-color: rgb(67, 73, 148);
+            border:2px solid  black;
+        }
+        .container2{
+            display: flex;
+        }
+
+/* Grow / shrink --- */
+        .growshrink1{
+            display: inline-block;
+            height: 100px;
+            flex-grow: 1;
+            background-color: rgb(173, 22, 22);
+        }
+        .growshrink2{
+            display: inline-block;
+            height: 100px;
+            flex-grow: 1;
+            background-color: rgb(34, 24, 173);
+        }
+        .growshrink3{
+            display: inline-block;
+            height: 100px;
+            flex-grow: 1;
+            background-color: rgb(19, 199, 100);
+        }
+        .growshrink4{
+            display: inline-block;
+            height: 100px;
+            flex-grow: 1;
+            background-color: rgb(177, 185, 56);
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="box1">box1</div>
         <div class="box2">box2</div>
-        <div class="box2">box3</div>
-        <div class="box2">box4</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+    </div>
+
+    
+    <div class="container2">
+        <div class="growshrink1">This one is grow 1</div>
+        <div class="growshrink2">This one is grow 2</div>
+        <div class="growshrink3">This one is grow 3</div>
+        <div class="growshrink4">This one is grow 4</div>
     </div>
 
 </body>
