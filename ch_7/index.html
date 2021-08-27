@@ -8,23 +8,44 @@
     <style>
         .container{
             display: grid;
+            /* height: 700px; */
             background-color: aquamarine;
-            grid-row-gap: 9px;
-            grid-column-gap: 9px;
-            grid-template-columns: auto auto auto;
+            /* grid-row-gap: 6px;
+            grid-column-gap: 9px; */
+            grid-gap: 6px 9px;
+            /* the following one sets both, the gap of row as well as column the same
+            grip-gap:9px;
+            */
+
+
+            /* grid-template-columns: 90px 45px auto;
+            grid-template-rows: 446px 60px; */
+            grid-template-columns: auto auto auto auto;
+            /* justify-content: center; */
+            align-content: flex-end;
+        }
+        .item1{
+            background-color: cadetblue;
+            border:2px solid crimson;
+            grid-column: 1/3;
         }
         .item{
             background-color: cadetblue;
-            border:2px solid crimson;
+            border:2px solid crimson
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="item">1</div>
+        <div class="item1">1</div>
         <div class="item">2</div>
         <div class="item">3</div>
         <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
     </div>
 </body>
 </html>
