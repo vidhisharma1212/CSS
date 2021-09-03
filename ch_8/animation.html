@@ -11,13 +11,13 @@
             width: 100vw ;
             background-color: deepskyblue;
         }
-        .box{
+        img{
             display: flex;
             justify-content: center;
             width: 300px;
             height: 300px;
-            background-color: chartreuse;
-            color: white;
+            /* background-color: chartreuse; */
+            /* color: white; */
 
             /* animation-name: vidhi;
             animation-duration: 3s;
@@ -28,8 +28,17 @@
 
             /* animation shorthand--> */
             animation: vidhi 3s ease-in 1s 2 alternate-reverse ;
+
+            animation: jimm 3s ease-in 1s 2 alternate-reverse ;
+
+            /* to put infinite repeat- */
+
+            /* animation: vidhi 3s ease-in 1s infinite alternate-reverse ; */
+
+            /* delay can be skipped */
         }
 
+        /* The same animation can be used in a plural number or times */
         @keyframes vidhi{
             from{
                 width: 300px;
@@ -37,16 +46,30 @@
             }
             to{
                 width: 100vw;
-                height: 330px;
+                height: 360px;
             }
+        }
+        @keyframes jimm{
+            0%{
+                width: 300px;
+                height: 300px;
+            }
+            20%{
+                width: 50vw;
+                height: 189px;
+            }
+            100%{
+                width: 100vw;
+                height: 360px;
+            }
+
+            /* not necessarily the same percentage, you can bring whatever percentages you want */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="box">
-            this is me
-        </div>
+        <img src="img.jpg" alt="img" width="70px">
     </div>
 </body>
 </html>
