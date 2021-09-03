@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            padding: 0.7vw;;
+            align-content: center;
+            display: grid;
+            height: 10vh;
+            background-color: chocolate;
+            border: 3px dashed wheat;
+
+        }
+        li{
+            color: white;
+            display: inline-block;
+        }
+        main{
+            display: grid;
+            justify-content: center; 
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 15vw ;
+            height: 70vh;
+            align-content: center;
+            background-color: thistle;
+        }
+        .img{
+            /* align-self: flex-start; */
+            width: 100vw;
+            height: 26vh;
+        }
+        .container1{
+            background-color: crimson;
+            border:2px solid deepskyblue;
+            width: 30vw;
+            height: 25vh;
+        }
+        .container2{
+            background-color: darkviolet;
+            border: 2px solid wheat;
+            width: 30vw;
+            height: 25vh;
+        }
+        .container3{
+            background-color: rgb(57, 80, 198);
+            border: 2px solid rgb(186, 47, 89);
+            width: 30vw;
+            height: 25vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="img">
+        this is some image
+    </div>
+    <main>
+        
+        <div class="container1">
+            photo 1
+        </div>
+
+        <div class="container2">
+            photo 2
+        </div>
+
+        <div class="container3">
+            photo 3
+        </div>
+    </main>
+    
+</body>
+</html>
