@@ -53,10 +53,15 @@
             background-color: rgb(25, 6, 66);
             color: white;
             border: 2px solid rgb(72, 3, 90);
-            width: 15vw;
-            transition-property: width;
-            transition-duration: 5s;
-            transition-timing-function: ease-in;
+            width: 150px;
+            height: 200px;
+            /* transition delay tells us after what time the transition will start happening.. */
+            /* transition-property: width;
+            transition-duration: 3s;
+            transition-timing-function: ease-in; 
+            transition-delay: 2s;*/
+
+            transition: width 3s ease-in 2s, height 2s ease-in-out 4s ;
 
         }
 
@@ -97,8 +102,14 @@
 </body>
 <!-- using just a bit of javascript here-- -->
 <script>
+    box1.style.width="300px";
     btn.addEventListener("click", ()=>{
-        box1.style.width="30vw";
+        if(box1.style.width==="150px"){
+            box1.style.width="300px"
+        }
+        else if(box1.style.width==="300px"){
+            box1.style.width="150px"
+        }
     })
 </script>
 </html>
