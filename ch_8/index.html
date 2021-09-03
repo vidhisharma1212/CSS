@@ -9,12 +9,19 @@
         .container{
             background-color: bisque;
             color: chartreuse;
-            height: 90px;
+            height: 900px;
             
         }
         .box{
             border: 2px solid black;
+
+            /* Transform helps you to resize, rotate,etc the  object. make sure you put it in object and not in a container (it will rotate the whole contaner, and igf you are aiming to rotate just 1 object, then you will fail), however there is nothing bad in roating a full container, until and unless you want it. in some cases we also need to apply it to multiple containers and objects, so make sure you do check what you are doing: .;
+            It is okay to use transform in both, the container and the object */
+    
+            /* Transform can take more than one command.  */
             transform: translate(35px, 80px) rotate(45deg);
+
+            transform-origin: bottom ;
         }
         .img{
             transform: translate(30px) rotate(0.5turn);
