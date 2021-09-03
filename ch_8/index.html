@@ -21,10 +21,28 @@
             /* Transform can take more than one command.  */
             transform: translate(35px, 80px) rotate(45deg);
 
-            transform-origin: bottom ;
+            /* transform-origin: bottom ;  */
+
+
+            /* transform: scaleX(3);
+            transform: scaleY(7); */
+
+            /* A single scale property can be used to scale from x and y axis respectively */
+            transform: scale(3, 7);
+        }
+        .skew{
+            font-size: xx-large;
+            color: darkgoldenrod;
+            transform: translate(45px, 350px) skew(4deg, 6deg) ;
         }
         .img{
             transform: translate(30px) rotate(0.5turn);
+        }
+        .box2{
+            color: black ;
+            /* Transform in matrix-
+            matrix( scaleX, skewY, skewX, scaleY, translateX, translateY ) */
+            /* transform: matrix(2, 3, 4deg, 6deg, 89px, 200px); */
         }
 
     </style>
@@ -34,6 +52,14 @@
     <div class="container">
         <div class="box">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, illo, quis officiis illum, quia esse molestias est possimus distinctio autem reiciendis iusto placeat eaque.
+        </div>
+
+        <div class="box2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor earum doloremque illum eos eum obcaecati delectus, necessitatibus sapiente perspiciatis nisi ab corporis aspernatur ullam.
+        </div>
+
+        <div class="skew">
+            skew
         </div>
     </div>
 </body>
