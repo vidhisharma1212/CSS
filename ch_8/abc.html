@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: thistle;
+
+        }
+        header{
+            padding: 0.7vw;
+            height: 10vh;
+            background-color: chocolate;
+            border: 3px dashed wheat;
+
+        }
+        li{
+            color: white;
+            display: inline-block;
+        }
+    
+        .container1{
+            background-color: crimson;
+            border:2px solid deepskyblue;
+            width: 15vw;
+            height: 20vh;
+        }
+
+        .container1:hover{
+            width: 20vw;
+        }
+
+        .container1{
+            transition-property: width ;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+        }
+        .container2{
+            background-color: darkviolet;
+            border: 2px solid wheat;
+            width: 15vw;
+            height: 20vh;
+        }
+
+        #box1{
+            background-color: rgb(25, 6, 66);
+            color: white;
+            border: 2px solid rgb(72, 3, 90);
+            width: 15vw;
+            transition-property: width;
+            transition-duration: 5s;
+            transition-timing-function: ease-in;
+
+        }
+
+        .container2:hover{
+            background-color: rgb(121, 194, 196);
+            color: rgb(18, 98, 179);
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container1">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, dolorem
+        </div>
+
+        <div class="container2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis 
+        </div>
+
+        <div class="container3">
+            <div id="box1">
+                Hello! This box can be resized!
+            </div>
+            <button id="btn">Toggle</button>
+        </div>
+    </main>
+</body>
+<!-- using just a bit of javascript here-- -->
+<script>
+    btn.addEventListener("click", ()=>{
+        box1.style.width="30vw";
+    })
+</script>
+</html>
