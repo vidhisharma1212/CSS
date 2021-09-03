@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .progress {
+            background-color: red;
+            height: 3px;
+            width: 5vw;
+            animation: progressBar 2s ease-in-out 0.2s 2 normal ;
+        }
+
+        body {
+            background-color: mintcream;
+        }
+
+        header {
+            height: 120px;
+            background-color: mediumturquoise;
+        }
+
+        @keyframes progressBar{
+            0%{
+                width: 0;
+            }
+            50%{
+                width: 70vw;
+            }
+            100%{
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <div class="progress">
+
+    </div>
+    <main>
+
+    </main>
+</body>
+
+</html>
