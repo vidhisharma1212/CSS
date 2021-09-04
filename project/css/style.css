@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -14,23 +16,48 @@ footer{
 }
 header{
     background-color: teal;
+    font-family: Dancing Script, sans-serif;
     height: 13vh;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    border: 2px dashed oldlace ;
 
 }
-header nav ul{
+/* header nav ul{
     /* display: flex; */
     /* justify-content: center; */
     /* align-content: center; */
-}
-header nav ul a{
-    display: inline-block;
-    color: white;
-    background-color: tomato;
-    height: 5vh;
-    width: 8vw;
-    /* background-color: ; */
 
+header nav ul{
+    padding: 1vw;
+    height: 13vh;
+    display:flex;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    height: 13vh;
+    align-items: center;
+}
+header nav ul li{
+    padding: 1vh ;
+    list-style: none;
+    background-color: tomato;
+    width: 9vw;
+    border:0.4vw dashed palegoldenrod ;
+    border-radius: 3vw;
+    text-align: center;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0 1.7vw;
+}
+
+.logo img{
+    width: 130px;
+    padding: 0 1.7vw;
 }
