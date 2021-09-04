@@ -23,6 +23,8 @@ header{
     font-family: Dancing Script, sans-serif;
     height: 13vh;
     border: 2px dashed oldlace ;
+    width: 100vw;
+    position: fixed;
 
 }
 /* header nav ul{
@@ -119,4 +121,9 @@ header nav ul li a:hover{
 .card h2 p{
     margin: 0 4.4vw;
     font-family: Open Sans, sans-serif;
+}
+
+.fashion{
+    display: flex;
+    justify-content: center;
 }
