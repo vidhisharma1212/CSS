@@ -21,18 +21,47 @@
     img{
         margin: auto;
         display: block;
-        animation: jalheejeevan 6s ease-in 2 alternate-reverse ;
     }
 
-    @keyframes jalheejeevan{
+/* 96, -2, -35 */
+    #img1{
+        transform: translate(30vw);
+        animation: image1 3s 1s forwards ;
+    }
+    #img2{
+        transform: translate(64vw); 
+        animation: image3 3s 1s forwards ;
+    }
+    #img3{
+        transform: translate(-97vw);
+        animation: image2 3s 1s forwards ;
+    }
+
+    @keyframes image1{
+        0%{
+            transform: translate(30vw);
+        }
+        100%{
+            transform: translate(96vw);
+        }
+    }
+    @keyframes image2{
+        0%{
+            transform: translate(64vw);
+        }
+        100%{
+            transform: translate(-97vw);
+        }
+    }
+    @keyframes image3{
         0%{
             transform: translate(0);
         }
         100%{
-            transform: translate(100vw);
-
+            transform: translate(-35vw);
         }
     }
+    
     </style>
 </head>
 <body>
