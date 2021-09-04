@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root{
+    --main-bg-color : #2874f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    height: 10vh;
+    background:var(--main-bg-color) ;
+    font-family: Kaisei Tokumin, sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background:var(--main-bg-color) ;
+    font-family: Dancing Script, sans-serif;
+    height: 13vh;
+    border: 2px dashed oldlace ;
+
+}
+/* header nav ul{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-content: center; */
+
+header nav ul{
+    padding: 1vw;
+    height: 13vh;
+    display:flex;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    height: 13vh;
+    align-items: center;
+}
+header nav ul li{
+    padding: 1vh ;
+    list-style: none;
+    border-radius: 3vw;
+    text-align: center;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: rgb(8, 2, 34);
+    font-weight: bold; 
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0 1.7vw;
+}
+
+.logo img{
+    width: 80px;
+    padding: 0 1.7vw;
+}
+/* doubt here-- (- 13vh - 10vh), 7:27 */
+.container{
+    min-height: calc(100vh);
+}
+
+.search input{
+    width: 30vw;
+    height: 25px;
+    border-radius: 0.6vw;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    height: 60vh;
+    margin: 0 0 0 0 ;
+}
+.card-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+.card-item img{
+    padding: 0 3vw;
+    margin: 0 0 0 0 ;
+}
