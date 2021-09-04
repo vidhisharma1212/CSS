@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    height: 10vh;
+    background-color: navajowhite;
+    font-family: Kaisei Tokumin, sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color: teal;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+header nav ul{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-content: center; */
+}
+header nav ul a{
+    display: inline-block;
+    color: white;
+    background-color: tomato;
+    height: 5vh;
+    width: 8vw;
+    /* background-color: ; */
+
+}
