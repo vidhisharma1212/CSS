@@ -60,6 +60,7 @@ header nav ul li a:hover{
     display: flex;
     align-items: center;
     padding: 0 1.7vw;
+    margin: 0 0vw 0 12vw;
 }
 
 .logo img{
@@ -74,5 +75,19 @@ header nav ul li a:hover{
 .search input{
     width: 30vw;
     height: 25px;
-    border-radius: 0.6vw;
+    border-radius: 0.2vw;
+}
+
+.login{
+    width: 9vw;
+    /* background-color: white;  this showed a bit white clr from side as well */
+    color: var(--main-bg-color);
+    height: 8vh;
+    margin: 0 3vw;
+    font-weight: bold;
+}
+
+#select{
+    width:5vw;
+    height: 3vh;
 }
