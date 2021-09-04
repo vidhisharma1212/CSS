@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
 
 :root{
     --main-bg-color : #2874f0;
@@ -84,6 +85,7 @@ header nav ul li a:hover{
     height: 60vh;
     margin: 0 0 0 0 ;
 }
+
 .card-item{
     display: flex;
     justify-content: center;
@@ -93,4 +95,28 @@ header nav ul li a:hover{
 .card-item img{
     padding: 0 3vw;
     margin: 0 0 0 0 ;
+}
+.lines{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* column-gap: 0.5vw;*/
+} 
+.lines p{
+    border-radius: 2px;
+    background-color: rgb(141, 79, 35);
+    text-align: center;
+    height: 4vh;
+    margin: 0 1vw;
+    color: white;
+
+}
+
+.card h2{
+    background-color: thistle;
+    color: navy;
+}
+
+.card h2 p{
+    margin: 0 4.4vw;
+    font-family: Open Sans, sans-serif;
 }
